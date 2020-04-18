@@ -35,7 +35,7 @@
 
   <build>
     <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
-    <finalName>${project.artifactId}-${project.version}-${git.commit.id.abbrev}.${git.commit.time}</finalName>
+    <finalName>${project.artifactId}-${project.version}.${git.commit.time}.${git.commit.id.abbrev}</finalName>
     <resources>
       <resource>
         <directory>${project.basedir}/src/main/resources</directory>
