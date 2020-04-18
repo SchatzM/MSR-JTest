@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dev.nnnk.jtest1.awaTest" time="0.004" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dev.nnnk.jtest1.awaTest" time="0.005" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,14 +7,14 @@
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="git.build.version" value="0.0.1.${git.commit.id.abbrev}"/>
+    <property name="git.build.version" value="0.0.1.${git.commit.time}"/>
     <property name="java.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
     <property name="git.branch" value="master"/>
     <property name="git.build.host" value="MSR-V4B"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="git.commit.id" value="a56dd5f82f0d636daa02a92c614fd961ed754bfe"/>
+    <property name="git.commit.id" value="49cbdafb91f5ce5cbe95c29ef04e645f96791769"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Paris"/>
     <property name="os.name" value="Windows 10"/>
@@ -23,7 +23,7 @@
     <property name="user.country" value="GB"/>
     <property name="git.build.user.name" value="SchatzM"/>
     <property name="sun.boot.library.path" value="D:\MSR\SFTWR\OpenJDK\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire3548705541386825287\surefirebooter16005743945919256341.jar C:\Users\schat\AppData\Local\Temp\surefire3548705541386825287 2020-04-18T20-11-43_413-jvmRun1 surefire10085590119013720568tmp surefire_014108231571149692647tmp"/>
+    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire7767029128390077257\surefirebooter14856818866499332419.jar C:\Users\schat\AppData\Local\Temp\surefire7767029128390077257 2020-04-18T20-15-22_147-jvmRun1 surefire143144152552473759tmp surefire_016805944742659208261tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2019-01-15"/>
     <property name="java.home" value="D:\MSR\SFTWR\OpenJDK\jdk-11.0.2"/>
-    <property name="git.total.commit.count" value="8"/>
+    <property name="git.total.commit.count" value="9"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -44,9 +44,9 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="git.closest.tag.name" value=""/>
     <property name="git.local.branch.ahead" value="0"/>
-    <property name="git.build.time" value="20200418-201142"/>
-    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire3548705541386825287\surefirebooter16005743945919256341.jar"/>
-    <property name="git.commit.message.full" value="Fix: Moar Changes."/>
+    <property name="git.build.time" value="20200418-201521"/>
+    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire7767029128390077257\surefirebooter14856818866499332419.jar"/>
+    <property name="git.commit.message.full" value="feat: New versioning scheme."/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -59,7 +59,7 @@
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="git.local.branch.behind" value="0"/>
-    <property name="git.dirty" value="true"/>
+    <property name="git.dirty" value="false"/>
     <property name="localRepository" value="C:\Users\schat\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\schat\AppData\Local\Temp\"/>
@@ -67,20 +67,20 @@
     <property name="user.dir" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest"/>
     <property name="os.arch" value="amd64"/>
     <property name="git.commit.user.name" value="SchatzM"/>
-    <property name="git.commit.id.abbrev" value="a56dd5f"/>
+    <property name="git.commit.id.abbrev" value="49cbdaf"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="git.commit.id.describe-short" value="a56dd5f-dirty"/>
+    <property name="git.commit.id.describe-short" value="49cbdaf"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="git.commit.id.describe" value="a56dd5f-dirty"/>
+    <property name="git.commit.id.describe" value="49cbdaf"/>
     <property name="java.library.path" value="D:\MSR\SFTWR\OpenJDK\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\MSR\SFTWR\OpenJDK\jdk-11.0.2\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Progs\Progsx64\Git\Git\cmd;D:\Progs\Progsx86\Fing\bin;D:\Progs\Progsx64\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\Progs\Progsx86\Gpg4win\..\GnuPG\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\schat\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\schat\AppData\Local\Programs\Python\Python37-32\;C:\Users\schat\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\schat\AppData\Local\Programs\Python\Python36\;C:\Users\schat\AppData\Local\Microsoft\WindowsApps;D:\Progs\Progsx86\Nmap;C:\Users\schat\AppData\Roaming\npm;C:\Users\schat\.dotnet\tools;."/>
-    <property name="git.commit.message.short" value="Fix: Moar Changes."/>
+    <property name="git.commit.message.short" value="feat: New versioning scheme."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.2+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
-    <property name="git.commit.time" value="20200418-200953"/>
+    <property name="git.commit.time" value="20200418-201502"/>
     <property name="git.remote.origin.url" value="https://github.com/SchatzM/MSR-JTest.git"/>
   </properties>
 </testsuite>

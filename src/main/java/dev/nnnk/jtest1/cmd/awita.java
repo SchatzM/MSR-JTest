@@ -21,7 +21,7 @@ public class awita implements CommandExecutor{
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         String cmdName = cmd.getName().toLowerCase();
         PluginDescriptionFile pdf = this.plugin.getDescription();
-        
+
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
@@ -44,6 +44,9 @@ public class awita implements CommandExecutor{
                 break;
                 case "papawa":
                 case "papawita":
+                    player.sendMessage("Papawita");
+                break;
+                case "ayno":
                     player.sendMessage("Papawita");
                 break;
                 default:

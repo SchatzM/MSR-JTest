@@ -6,7 +6,7 @@
 
   <groupId>dev.nnnk.jtest1</groupId>
   <artifactId>MSR-JTest</artifactId>
-  <version>0.0.1.${git.commit.time}</version>
+  <version>0.0.1-${git.commit.time}</version>
 
   <name>MSR-JTest</name>
   <url>https://nnnk.dev</url>
