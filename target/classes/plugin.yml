@@ -1,7 +1,7 @@
 name: MSR-JTest
 api-version: 1.13
 main: dev.nnnk.jtest1.awa
-version: 0.0.1-20200418-200953
+version: 0.0.1-20200418-203226
 commands:
    awa:
       description: Awa?
@@ -12,6 +12,10 @@ commands:
       usage: /<command>
       aliases: [papawita]
    dime:
+      description: Repite lo que digas.
+      usage: /<command>
+      aliases: [d]
+   ayno:
       description: Repite lo que digas.
       usage: /<command>
       aliases: [d]

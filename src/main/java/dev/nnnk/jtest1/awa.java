@@ -32,11 +32,12 @@ public class awa extends JavaPlugin {
     }
 
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent e) {
+    public void onPlayerJoinEvent(PlayerJoinEvent e) {
         Player playerObj = e.getPlayer();
 
         for (Player player : Bukkit.getOnlinePlayers()) {
             player.sendMessage("Güelcom "+playerObj.getDisplayName());
+            Bukkit.broadcastMessage("Güelcom "+playerObj.getDisplayName());
         }
     }
 }
