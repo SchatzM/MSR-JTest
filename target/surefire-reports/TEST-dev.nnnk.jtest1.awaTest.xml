@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dev.nnnk.jtest1.awaTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dev.nnnk.jtest1.awaTest" time="0.004" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\schat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
+    <property name="java.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="D:\MSR\SFTWR\OpenJDK\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire3746582991627246798\surefirebooter3669415091032897770.jar C:\Users\schat\AppData\Local\Temp\surefire3746582991627246798 2020-04-18T14-37-18_600-jvmRun1 surefire14347555230326884414tmp surefire_014619499749206856866tmp"/>
+    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462\surefirebooter17034422466961097217.jar C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462 2020-04-18T15-04-19_001-jvmRun1 surefire9560579412288605454tmp surefire_09998147660358355371tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\schat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
+    <property name="surefire.test.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\schat"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire3746582991627246798\surefirebooter3669415091032897770.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462\surefirebooter17034422466961097217.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -60,5 +60,4 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="dev.nnnk.jtest1.awaTest" time="0.001"/>
 </testsuite>

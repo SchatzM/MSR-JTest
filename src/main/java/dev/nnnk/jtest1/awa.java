@@ -11,6 +11,7 @@ public class awa extends JavaPlugin {
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa tú!");
 
         getCommand("awa").setExecutor(new awita(this));
+        getCommand("papawa").setExecutor(new awita(this));
     }
 
     @Override
