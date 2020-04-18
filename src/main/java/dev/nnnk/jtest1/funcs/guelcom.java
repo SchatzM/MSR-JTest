@@ -7,6 +7,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.Bukkit;
 
+// PlayerJoin event handler
 public class guelcom implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {

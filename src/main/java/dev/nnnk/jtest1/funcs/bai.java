@@ -7,6 +7,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.Bukkit;
 
+// PlayerQuit event handler
 public class bai implements Listener {
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent e) {
