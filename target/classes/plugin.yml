@@ -1,3 +1,9 @@
 main: dev.nnnk.jtest1.awa
 name: MSR-JTest
-version: 0.0.6
+api-version: 1.13
+main: dev.nnnk.jtest1.awa
+version: 0.0.9
+commands:
+   awa:
+      description: Awa?
+      usage: /<command>

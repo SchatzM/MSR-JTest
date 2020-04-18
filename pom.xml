@@ -6,7 +6,7 @@
 
   <groupId>dev.nnnk.jtest1</groupId>
   <artifactId>MSR-JTest</artifactId>
-  <version>0.0.6</version>
+  <version>0.0.9</version>
 
   <name>MSR-JTest</name>
   <!-- FIXME change it to the project's website -->
@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <repositories>
@@ -45,6 +45,7 @@
     <resources>
       <resource>
         <directory>${project.basedir}/src/main/resources</directory>
+        <filtering>true</filtering>
         <includes>
           <include>plugin.yml</include>
         </includes>
