@@ -10,13 +10,14 @@ import org.bukkit.Bukkit;
 
 import dev.nnnk.jtest1.cmd.*;
 
-public class awa extends JavaPlugin {
+public class awa extends JavaPlugin implements Listener{
     @Override
     public void onLoad() {
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa tú LOADED!");
     }
     @Override
     public void onEnable() {
+        Bukkit.getPluginManager().registerEvents(this, this);
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa tú!");
 
         getCommand("awa").setExecutor(new awita(this));
@@ -32,12 +33,11 @@ public class awa extends JavaPlugin {
     }
 
     @EventHandler
-    public void onPlayerJoinEvent(PlayerJoinEvent e) {
+    public void onPlayerJoin(PlayerJoinEvent e) {
         Player playerObj = e.getPlayer();
 
         for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage("Güelcom "+playerObj.getDisplayName());
-            Bukkit.broadcastMessage("Güelcom "+playerObj.getDisplayName());
+            player.sendMessage(ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName());
         }
     }
 }
