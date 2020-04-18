@@ -10,7 +10,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 
 import dev.nnnk.jtest1.awa;
 
-public class awita implements CommandExecutor{
+public class awita implements CommandExecutor {
     awa plugin;
 
     public awita(awa plugin) {
@@ -31,10 +31,10 @@ public class awita implements CommandExecutor{
                     if (args.length == 0) {
                         player.sendMessage("Awita");
                     } else {
-                        if(args[0].equalsIgnoreCase("version") || args[0].equalsIgnoreCase("v")){
+                        if(args[0].equalsIgnoreCase("version") || args[0].equalsIgnoreCase("v")) {
                             player.sendMessage("Version: "+pdf.getVersion());
                         }
-                        if(args[0].equalsIgnoreCase("dime") || args[0].equalsIgnoreCase("d")){
+                        if(args[0].equalsIgnoreCase("dime") || args[0].equalsIgnoreCase("d")) {
                             String[] argsAProc = Arrays.copyOfRange(args, 1, args.length);
                             String digamelon = String.join(" ", argsAProc);
 

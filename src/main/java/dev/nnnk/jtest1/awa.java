@@ -2,23 +2,25 @@ package dev.nnnk.jtest1;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.event.EventHandler;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.event.Listener;
-import org.bukkit.entity.Player;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.Bukkit;
 
 import dev.nnnk.jtest1.cmd.*;
+import dev.nnnk.jtest1.funcs.*;
 
-public class awa extends JavaPlugin implements Listener{
+// Main class, duh.
+public class awa extends JavaPlugin implements Listener {
+
     @Override
     public void onLoad() {
-        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa tú LOADED!");
+        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa LOADED!");
     }
+
     @Override
     public void onEnable() {
-        Bukkit.getPluginManager().registerEvents(this, this);
-        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa tú!");
+        regEvents();
+        getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa ENABLE!");
 
         getCommand("awa").setExecutor(new awita(this));
         getCommand("papawa").setExecutor(new awita(this));
@@ -29,15 +31,14 @@ public class awa extends JavaPlugin implements Listener{
 
     @Override
     public void onDisable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.DARK_PURPLE + "¡Papawa tú!");
+        getServer().getConsoleSender().sendMessage(ChatColor.DARK_PURPLE + "¡Awa PAPAWA!");
     }
 
-    @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent e) {
-        Player playerObj = e.getPlayer();
+    // This register Event listeners
+    public void regEvents() {
+        PluginManager pm = Bukkit.getPluginManager();
 
-        for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage(ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName());
-        }
+        pm.registerEvents(new guelcom(), this);
+        pm.registerEvents(new bai(), this);
     }
 }
