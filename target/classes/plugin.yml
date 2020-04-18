@@ -1,7 +1,7 @@
 name: MSR-JTest
 api-version: 1.13
 main: dev.nnnk.jtest1.awa
-version: 0.0.1-20200418-203226
+version: 0.0.1
 commands:
    awa:
       description: Awa?
