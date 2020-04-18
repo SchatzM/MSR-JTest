@@ -6,7 +6,7 @@
 
   <groupId>dev.nnnk.jtest1</groupId>
   <artifactId>MSR-JTest</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1.${git.commit.time}</version>
 
   <name>MSR-JTest</name>
   <url>https://nnnk.dev</url>
@@ -35,7 +35,7 @@
 
   <build>
     <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
-    <finalName>${project.artifactId}-${project.version}.${git.commit.time}.${git.commit.id.abbrev}</finalName>
+    <finalName>${project.artifactId}-${project.version}.${git.commit.id.abbrev}</finalName>
     <resources>
       <resource>
         <directory>${project.basedir}/src/main/resources</directory>
