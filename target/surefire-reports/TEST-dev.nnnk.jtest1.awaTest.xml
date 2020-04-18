@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="D:\MSR\SFTWR\OpenJDK\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462\surefirebooter17034422466961097217.jar C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462 2020-04-18T15-04-19_001-jvmRun1 surefire9560579412288605454tmp surefire_09998147660358355371tmp"/>
+    <property name="sun.java.command" value="C:\Users\schat\AppData\Local\Temp\surefire4193544960131737251\surefirebooter17434770920407098055.jar C:\Users\schat\AppData\Local\Temp\surefire4193544960131737251 2020-04-18T19-41-33_650-jvmRun1 surefire5176008300011749857tmp surefire_06796490669119552271tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\test-classes;d:\MSR\Documents\rsanmB\test-java\mc-test\MSR-JTest\target\classes;C:\Users\schat\.m2\repository\org\spigotmc\spigot-api\1.15.2-R0.1-SNAPSHOT\spigot-api-1.15.2-R0.1-SNAPSHOT.jar;C:\Users\schat\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\schat\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\schat\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\schat\.m2\repository\net\md-5\bungeecord-chat\1.15-SNAPSHOT\bungeecord-chat-1.15-SNAPSHOT.jar;C:\Users\schat\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire11551751519718032462\surefirebooter17034422466961097217.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\schat\AppData\Local\Temp\surefire4193544960131737251\surefirebooter17434770920407098055.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>

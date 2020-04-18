@@ -6,6 +6,12 @@ commands:
    awa:
       description: Awa?
       usage: /<command>
+      aliases: [awita]
    papawa:
       description: Papawa?
       usage: /<command>
+      aliases: [papawita]
+   dime:
+      description: Repite lo que digas.
+      usage: /<command>
+      aliases: [d]
