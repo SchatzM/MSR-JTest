@@ -11,10 +11,10 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import dev.nnnk.jtest1.awa;
 
 // Main commands handler
-public class awita implements CommandExecutor {
+public class cmdr implements CommandExecutor {
     awa plugin;
 
-    public awita(awa plugin) {
+    public cmdr(awa plugin) {
         this.plugin = plugin;
     }
 

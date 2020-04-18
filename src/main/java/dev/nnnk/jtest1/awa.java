@@ -22,10 +22,10 @@ public class awa extends JavaPlugin implements Listener {
     public void onEnable() {
         regEvents();
 
-        getCommand("awa").setExecutor(new awita(this));
-        getCommand("papawa").setExecutor(new awita(this));
-        getCommand("dime").setExecutor(new awita(this));
-        getCommand("ayno").setExecutor(new awita(this));
+        getCommand("awa").setExecutor(new cmdr(this));
+        getCommand("papawa").setExecutor(new cmdr(this));
+        getCommand("dime").setExecutor(new cmdr(this));
+        getCommand("ayno").setExecutor(new cmdr(this));
 
         // Log in console that the plugin is now enabled.
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa ENABLED!");
