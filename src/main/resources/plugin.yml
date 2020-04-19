@@ -15,7 +15,7 @@ commands:
       description: Repite lo que digas.
       usage: /<command>
       aliases: [d]
-   ayno:
-      description: Repite lo que digas.
+   cmd:
+      description: Commands available.
       usage: /<command>
-      aliases: [d]
+      aliases: [commands]

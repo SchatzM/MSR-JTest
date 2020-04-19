@@ -25,7 +25,7 @@ public class awa extends JavaPlugin implements Listener {
         getCommand("awa").setExecutor(new cmdr(this));
         getCommand("papawa").setExecutor(new cmdr(this));
         getCommand("dime").setExecutor(new cmdr(this));
-        getCommand("ayno").setExecutor(new cmdr(this));
+        getCommand("cmd").setExecutor(new cmdr(this));
 
         // Log in console that the plugin is now enabled.
         getServer().getConsoleSender().sendMessage(ChatColor.GOLD + "¡Awa ENABLED!");
@@ -41,7 +41,6 @@ public class awa extends JavaPlugin implements Listener {
     public void regEvents() {
         PluginManager pm = Bukkit.getPluginManager();
 
-        pm.registerEvents(new guelcom(), this);
-        pm.registerEvents(new bai(), this);
+        pm.registerEvents(new guelcombai(), this);
     }
 }
