@@ -16,7 +16,7 @@ public class guelcom implements Listener {
 
         // for (Player player : Bukkit.getOnlinePlayers()) {
         //     player.sendMessage(jelou);
-        }
+        // }
         e.setJoinMessage(jelou);
     }
 }
