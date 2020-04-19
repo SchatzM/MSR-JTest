@@ -42,5 +42,6 @@ public class awa extends JavaPlugin implements Listener {
         PluginManager pm = Bukkit.getPluginManager();
 
         pm.registerEvents(new guelcombai(), this);
+        pm.registerEvents(new expendedora(), this);
     }
 }
