@@ -12,9 +12,11 @@ public class guelcom implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         Player playerObj = e.getPlayer();
+        String jelou = ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName();
 
-        for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage(ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName());
+        // for (Player player : Bukkit.getOnlinePlayers()) {
+        //     player.sendMessage(jelou);
         }
+        e.setJoinMessage(jelou);
     }
 }

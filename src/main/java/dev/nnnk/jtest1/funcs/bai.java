@@ -12,9 +12,11 @@ public class bai implements Listener {
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent e) {
         Player playerObj = e.getPlayer();
+        String kbai = ChatColor.AQUA+"Bai "+ChatColor.GOLD+playerObj.getDisplayName();
 
-        for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage(ChatColor.AQUA+"Bai "+ChatColor.GOLD+playerObj.getDisplayName());
-        }
+        // for (Player player : Bukkit.getOnlinePlayers()) {
+        //     player.sendMessage(kbai);
+        // }
+        e.setQuitMessage(kbai);
     }
 }
