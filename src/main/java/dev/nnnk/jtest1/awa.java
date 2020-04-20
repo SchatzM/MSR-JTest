@@ -12,7 +12,7 @@ import dev.nnnk.jtest1.mchns.*;
 
 // Main class, duh.
 public class awa extends JavaPlugin implements Listener {
-
+    private PluginManager pm = Bukkit.getPluginManager();
     @Override
     public void onLoad() {
         // Log in console that we've been loaded by server.
@@ -40,8 +40,6 @@ public class awa extends JavaPlugin implements Listener {
 
     // This register Event listeners
     public void regEvents() {
-        PluginManager pm = Bukkit.getPluginManager();
-
         pm.registerEvents(new guelcombai(), this);
         pm.registerEvents(new expendedora(), this);
         pm.registerEvents(new linterfaz(), this);

@@ -13,17 +13,18 @@ import org.bukkit.inventory.EquipmentSlot;
 public class expendedora implements Listener {
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e){
-        Player player = e.getPlayer();
-        Material ObjInHand = player.getInventory().getItemInMainHand().getType();
+        Player p = e.getPlayer();
+        Material ObjInHand = p.getInventory().getItemInMainHand().getType();
         Material ObjClkd = e.getClickedBlock().getType();
-        boolean isHand = (e.getAction() == Action.RIGHT_CLICK_BLOCK && e.getHand() == EquipmentSlot.HAND);
+        boolean isHand = ((e.getAction()).equals(Action.RIGHT_CLICK_BLOCK) && (e.getHand()).equals(EquipmentSlot.HAND));
         linterfaz guides = new linterfaz();
 
         if(isHand){
-            if(ObjClkd == Material.BOOKSHELF){
+            if(ObjClkd.equals(Material.BOOKSHELF)){
                 guides.createGui("eri nap",9);
-                guides.openInventory(player);
-                player.chat("Expendedora abierta.");
+                guides.openInventory(p);
+
+                p.sendMessage("Expendedora abierta.");
             }
         }
     }

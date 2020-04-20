@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
 // PlayerJoin event handler
 public class guelcombai implements Listener {
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent e) {
+    public void onPlayerJoin(final PlayerJoinEvent e) {
         Player playerObj = e.getPlayer();
         String jelou = ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName();
 
@@ -18,7 +18,7 @@ public class guelcombai implements Listener {
     }
     
     @EventHandler
-    public void onPlayerQuit(PlayerQuitEvent e) {
+    public void onPlayerQuit(final PlayerQuitEvent e) {
         Player playerObj = e.getPlayer();
         String kbai = ChatColor.AQUA+"Bai "+ChatColor.GOLD+playerObj.getDisplayName();
 

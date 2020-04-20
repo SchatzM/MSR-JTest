@@ -51,13 +51,13 @@ public class linterfaz implements InventoryHolder, Listener {
 
     @EventHandler
     public void onInventoryClick(final InventoryClickEvent e) {
-        if (e.getInventory().getHolder() != this) return;
+        if (!(e.getInventory().getHolder()).equals(this)) return;
 
         e.setCancelled(true);
 
         final ItemStack clickedItem = e.getCurrentItem();
 
-        if (clickedItem == null || clickedItem.getType() == Material.AIR) return;
+        if (clickedItem.equals(null) || clickedItem.getType().equals(Material.AIR)) return;
 
         final Player p = (Player) e.getWhoClicked();
 
