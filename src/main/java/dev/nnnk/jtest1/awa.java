@@ -8,6 +8,7 @@ import org.bukkit.Bukkit;
 
 import dev.nnnk.jtest1.cmd.*;
 import dev.nnnk.jtest1.funcs.*;
+import dev.nnnk.jtest1.mchns.*;
 
 // Main class, duh.
 public class awa extends JavaPlugin implements Listener {
@@ -43,5 +44,6 @@ public class awa extends JavaPlugin implements Listener {
 
         pm.registerEvents(new guelcombai(), this);
         pm.registerEvents(new expendedora(), this);
+        pm.registerEvents(new linterfaz(), this);
     }
 }

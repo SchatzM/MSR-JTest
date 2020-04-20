@@ -1,13 +1,13 @@
 package dev.nnnk.jtest1.cmd;
 
+import dev.nnnk.jtest1.awa;
+
 import java.util.Arrays;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.PluginDescriptionFile;
-
-import dev.nnnk.jtest1.awa;
 
 // Main commands handler
 public class cmdr implements CommandExecutor {
@@ -25,7 +25,7 @@ public class cmdr implements CommandExecutor {
         String[] argsAProc;
         String digamelon = null;
 
-        if(haveArgs){
+        if(haveArgs) {
             argsAProc = Arrays.copyOfRange(args, 1, args.length);
             digamelon = String.join(" ", argsAProc);
         }
