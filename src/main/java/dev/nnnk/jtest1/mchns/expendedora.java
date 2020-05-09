@@ -21,9 +21,9 @@ public class expendedora implements Listener {
 
         if(isHand){
             if(ObjClkd.equals(Material.BOOKSHELF)){
-                guides.createGui("eri nap",9);
+                guides.createGui("eri nap c:",9);
                 guides.openInventory(p);
-
+                // Test
                 p.sendMessage("Expendedora abierta.");
             }
         }

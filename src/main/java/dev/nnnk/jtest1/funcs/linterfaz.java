@@ -4,6 +4,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.InventoryHolder;
+import org.bukkit.inventory.InventoryView;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.Inventory;
@@ -16,6 +17,7 @@ import java.util.Arrays;
 
 public class linterfaz implements InventoryHolder, Listener {
     private Inventory inv;
+    private String iName;
 
     public void createGui(final String name, final int size) {
         inv = Bukkit.createInventory(this, size, name);
@@ -36,6 +38,7 @@ public class linterfaz implements InventoryHolder, Listener {
     protected ItemStack createGuiItem(final Material material, final String name, final String... lore) {
         final ItemStack item = new ItemStack(material, 1);
         final ItemMeta meta = item.getItemMeta();
+        this.iName = name;
 
         meta.setDisplayName(name);
         meta.setLore(Arrays.asList(lore));
@@ -51,16 +54,17 @@ public class linterfaz implements InventoryHolder, Listener {
 
     @EventHandler
     public void onInventoryClick(final InventoryClickEvent e) {
-        if (!(e.getInventory().getHolder()).equals(this)) return;
+        Player p = (Player) e.getWhoClicked();
+        ItemStack clicked = e.getCurrentItem();
+        InventoryView inventory = e.getView();
 
-        e.setCancelled(true);
+        p.sendMessage("Uno: "+inventory.getTitle());
+        p.sendMessage("Dos: "+iName);
 
-        final ItemStack clickedItem = e.getCurrentItem();
+        if(inventory.getTitle().equals(iName)) {
 
-        if (clickedItem.equals(null) || clickedItem.getType().equals(Material.AIR)) return;
+        }
 
-        final Player p = (Player) e.getWhoClicked();
-
-        p.sendMessage("clic on" + e.getRawSlot());
+        
     }
 }
