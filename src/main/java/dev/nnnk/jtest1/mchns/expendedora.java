@@ -11,21 +11,21 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 
 public class expendedora implements Listener {
-    @EventHandler
-    public void onPlayerInteract(PlayerInteractEvent e){
-        Player p = e.getPlayer();
-        Material ObjInHand = p.getInventory().getItemInMainHand().getType();
-        Material ObjClkd = e.getClickedBlock().getType();
-        boolean isHand = ((e.getAction()).equals(Action.RIGHT_CLICK_BLOCK) && (e.getHand()).equals(EquipmentSlot.HAND));
-        linterfaz guides = new linterfaz();
+	@EventHandler
+	public void onPlayerInteract(PlayerInteractEvent e){
+		Player p = e.getPlayer();
+		Material ObjInHand = p.getInventory().getItemInMainHand().getType();
+		Material ObjClkd = e.getClickedBlock().getType();
+		boolean isHand = ((e.getAction()).equals(Action.RIGHT_CLICK_BLOCK) && (e.getHand()).equals(EquipmentSlot.HAND));
+		linterfaz guides = new linterfaz();
 
-        if(isHand){
-            if(ObjClkd.equals(Material.BOOKSHELF)){
-                guides.createGui("eri nap c:",9);
-                guides.openInventory(p);
-                // Test
-                p.sendMessage("Expendedora abierta.");
-            }
-        }
-    }
+		if(isHand){
+			if(ObjClkd.equals(Material.BOOKSHELF)){
+				guides.createGui("eri nap c:",9);
+				guides.openInventory(p);
+				// Test
+				p.sendMessage("Expendedora abierta.");
+			}
+		}
+	}
 }

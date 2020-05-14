@@ -9,19 +9,19 @@ import org.bukkit.entity.Player;
 
 // PlayerJoin event handler
 public class guelcombai implements Listener {
-    @EventHandler
-    public void onPlayerJoin(final PlayerJoinEvent e) {
-        Player playerObj = e.getPlayer();
-        String jelou = ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName();
+	@EventHandler
+	public void onPlayerJoin(final PlayerJoinEvent e) {
+		Player playerObj = e.getPlayer();
+		String jelou = ChatColor.AQUA+"Güelcom "+ChatColor.GOLD+playerObj.getDisplayName();
 
-        e.setJoinMessage(jelou);
-    }
-    
-    @EventHandler
-    public void onPlayerQuit(final PlayerQuitEvent e) {
-        Player playerObj = e.getPlayer();
-        String kbai = ChatColor.AQUA+"Bai "+ChatColor.GOLD+playerObj.getDisplayName();
+		e.setJoinMessage(jelou);
+	}
 
-        e.setQuitMessage(kbai);
-    }
+	@EventHandler
+	public void onPlayerQuit(final PlayerQuitEvent e) {
+		Player playerObj = e.getPlayer();
+		String kbai = ChatColor.AQUA+"Bai "+ChatColor.GOLD+playerObj.getDisplayName();
+
+		e.setQuitMessage(kbai);
+	}
 }
