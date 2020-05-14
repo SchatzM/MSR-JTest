@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>dev.nnnk.jtest1</groupId>
 	<artifactId>MSR-JTest</artifactId>
 	<version>0.0.1-alpha</version>
-
 	<name>MSR-JTest</name>
 	<url>https://nnnk.dev</url>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>14</maven.compiler.source>
 		<maven.compiler.target>14</maven.compiler.target>
 	</properties>
-
 	<repositories>
-			<repository>
-					<id>spigot-repo</id>
-					<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-			</repository>
+		<repository>
+			<id>spigot-repo</id>
+			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+		</repository>
 	</repositories>
-
 	<dependencies>
 		<dependency>
-						<groupId>org.spigotmc</groupId>
-						<artifactId>spigot-api</artifactId>
-						<version>1.15.2-R0.1-SNAPSHOT</version>
-						<scope>provided</scope>
+			<groupId>org.spigotmc</groupId>
+			<artifactId>spigot-api</artifactId>
+			<version>1.15.2-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
 			</dependency>
 	</dependencies>
 
@@ -88,31 +82,31 @@
 		</pluginManagement>
 		<plugins>
 			<plugin>
-						<groupId>pl.project13.maven</groupId>
-						<artifactId>git-commit-id-plugin</artifactId>
-						<version>4.0.0</version>
-						<executions>
-								<execution>
-										<phase>validate</phase>
-										<goals>
-												<goal>revision</goal>
-										</goals>
-								</execution>
-						</executions>
-						<configuration>
-								<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
-								<prefix>git</prefix>
-								<verbose>false</verbose>
-								<dateFormat>yyyyMMdd-HHmmss</dateFormat>
-								<generateGitPropertiesFile>false</generateGitPropertiesFile>
-								<failOnNoGitDirectory>false</failOnNoGitDirectory>
-								<gitDescribe>
-										<skip>false</skip>
-										<always>false</always>
-										<dirty>-dirty</dirty>
-								</gitDescribe>
-						</configuration>
-				</plugin>
-			</plugins>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin</artifactId>
+				<version>4.0.0</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>revision</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+						<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+						<prefix>git</prefix>
+						<verbose>false</verbose>
+						<dateFormat>yyyyMMdd-HHmmss</dateFormat>
+						<generateGitPropertiesFile>false</generateGitPropertiesFile>
+						<failOnNoGitDirectory>false</failOnNoGitDirectory>
+						<gitDescribe>
+							<skip>false</skip>
+							<always>false</always>
+							<dirty>-dirty</dirty>
+						</gitDescribe>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
